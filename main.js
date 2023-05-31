@@ -1,3 +1,4 @@
+//HELLO SOMEBODY...
 let userName = prompt('What is your name?');
 alert(`"Hello ${userName}"! How are you?`);
 
@@ -38,5 +39,5 @@ alert(`Середнє арифметичне трьох чисел: ${(c + d + e
 
 
 //DECOMPOSITION
-let number = Number(prompt("Введіть п'ятизначне число: "));
-alert(`${number %= number}`);
+let numbers = prompt('Введіть число, яке треба розділити посимвольно: ');
+alert(numbers.split('').join(' '));
